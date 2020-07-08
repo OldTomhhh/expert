@@ -1,0 +1,32 @@
+.right_box{
+    width: 1000px;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.box_title{
+    display: inline-block;
+    line-height: 35px;
+    border-bottom: 1px solid darkred;
+
+}
+.box_title span:nth-of-type(1){
+    font-size: 20px;
+}
+.w_box p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.right_box ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right_box ul li span{
+    display: inline-block;
+    width: 100%;
+    line-height: 75px;
+    text-align: center;
+}

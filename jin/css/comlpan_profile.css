@@ -1,0 +1,34 @@
+.con_banner{
+    width: 1920px;
+    margin: 0 auto;
+}
+.conBox{
+    width: 100%;
+}
+
+
+
+
+
+.con_right{
+    width: 979PX;
+    float: right;
+}
+.r_title{
+    display: inline-block;
+    line-height: 26px;
+    border-bottom: 1px solid darkred;
+}
+.r_title span{
+    font-size: 23px;
+}
+.con_right p{
+    margin-top: 35px;
+    color: #666666;
+}
+.img_box{
+    margin: 20px 0 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

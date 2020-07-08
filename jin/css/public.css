@@ -1,0 +1,214 @@
+/* 头部开始 */
+
+
+a{
+    color: black;
+}
+header{
+    width: 100%;
+    height: 116px;
+
+}
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+.search{
+    float: right;
+    width: 300px;
+}
+.login{
+    display: inline-block;
+    margin-left: 15px;
+}
+.searBox{
+    display: inline-block;
+    width: 170px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: 13px;
+    border: black solid 1px;
+}
+
+.search input{
+    width: 145px;
+    border: none;
+    margin-left: 10px;
+}
+
+.selec{
+    float: right;
+    height: 72px;
+    width: 100%; 
+}
+.selec ul li{
+    float: right;
+    line-height: 72px;
+    margin-left: 56px;
+   
+}
+.selec ul li a{
+    display: inline-block;
+    height: 55px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.3s;
+    
+}
+
+
+ .login a:hover{
+     color: darkred;
+ }
+
+/* 头部结束 */
+
+/* banner开始 */
+.banBox{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    position: absolute;
+    float: left;
+    opacity: 0;
+    transition: all 0.8s;
+}
+.banner{
+    width: 100%;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.banInner{
+    width: 7680px;
+    height: 300px;
+}
+.banner>button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 5;
+}
+
+.banner>button:nth-of-type(1) {
+    left: 20px;
+}
+
+.banner>button:nth-of-type(2) {
+    right: 20px;
+}
+
+.banner>button:hover {
+    background: rgba(0, 0, 0, .7);
+}
+
+.banner>button:active {
+    background: rgba(0, 0, 0, .9);
+}
+
+.banner>ul {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 90px;
+    text-align: center;
+    margin-left: -29px;
+}
+
+.banner li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner li.active {
+    background: black;
+}
+
+.banner img.active {
+    opacity: 1;
+}
+/* banner结束 */
+/* footer开始 */
+.foot{
+    line-height: 92px;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+}
+.foot span{
+    color: white;
+}
+
+
+/* footer结束 */
+
+
+.con_banner{
+    width: 1920px;
+    margin: 0 auto;
+}
+/* 子页内容标题 */
+.title1{
+    height: 25px;
+    padding-top: 25px;
+    border-bottom: 1px solid black;
+}
+.title1 span{
+    float: right;
+}
+.title1 a{
+    float: right;
+    color: darkred;
+}
+.title2{
+    height: 38px;
+}
+.title2 a{
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    width: 116px;
+    font-size: 25px;
+    border:1px solid black ;
+    border-top: none;
+    
+}
+
+.con_left{
+    display: inline-block;
+    width: 116px;
+    line-height: 60px;
+    color: darkred;
+    text-align: center;
+    border-left: 1px solid black;
+    cursor: pointer;
+
+}
+.con_left_box{
+    display: inline-block;
+    width: 117px;
+}

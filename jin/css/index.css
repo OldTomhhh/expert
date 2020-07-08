@@ -1,0 +1,223 @@
+
+
+/* 公司介绍 */
+
+.conBox1{
+    width: 100%;  
+}
+
+.con1{
+    padding-top: 145px;
+}
+
+.redborder{
+    width: 1125px;
+    height: 463px;
+    border: solid 2px #860a12;
+    position: relative;
+    margin-bottom: 80px;
+}
+.redborder img{
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    z-index: 2;
+}
+
+.c1_title{
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    border: 2px solid darkred;
+    position: absolute;
+    top: -34px;
+    left: 750px;
+}
+.c1_title span{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+.c1_title span:nth-of-type(1){
+    position: absolute;
+    top:-20px;
+    left: 55px;
+    font-size: 30px;
+    background-color: white;
+    width: 150px;
+}
+.c1_title span:nth-of-type(2){
+    margin-top: 25px;
+}
+.word_box{
+    width: 683px;
+    height: 380px;
+    background-color: #999999;
+    position: absolute;
+    top: 100px;
+    left: 515px;
+}
+.word_box p{
+    color: white;
+    float: right;
+    width: 560px;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.word_box p{
+    padding-top: 20px;
+}
+.w_title{
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    float: right;
+    border-bottom: 2px solid white;
+}
+.w_title a{
+    color: white;
+    float: right;
+    margin-left: 350px;
+}
+.w_title h1{
+    display: inline-block;
+}
+
+
+/* 公司介绍结束 */
+
+
+.conBox2{
+    width: 100%;  
+    background-color: #e6e6e6;
+}
+
+
+
+.c2_title{
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+.c2_title span:nth-of-type(1){
+    font-size: 24px;
+    
+}
+
+.gang{
+    width: 100px;
+    height: 50px;
+    border-top: 2px solid darkred;
+    margin: 5px auto;
+
+}
+.conBox2 ul li{
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+}
+.conBox2 .con2 ul li span{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+   
+}
+.conBox2 .con2 ul li p{
+    height: 112px;
+    width: 250px;
+    margin: 0 auto;
+
+}
+
+.reading{
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    color:white;
+    background-color: #a20a09;
+    cursor: pointer;
+    margin: 60px auto;
+}
+
+/* 拍摄基地结束 */
+
+.con3_box{
+   position: relative;
+   height: 390px;
+   background-color: #a20a09;
+   margin-bottom: 124px;
+}
+.con3_box img{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.con3_Word{
+    width: 700px;
+    padding-top: 25px;
+    margin-right: 15px;
+    line-height: 50px;
+    color: white;
+    float: right;
+}
+.w3_title{
+    border-bottom: 1px solid white;
+}
+
+.w3_title h1{
+    font-size: 20px;
+    float: left;
+}
+
+.con3_Word p{
+    margin-top: 25px;
+    line-height: 25px;
+}
+.reading2{
+    display: inline-block;
+    line-height: 30px;
+    color: #a20a09;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* <!-- 真实客照结束 --> */
+
+
+.conBox3{
+    width: 100%;
+}
+.con4{
+    margin-top: 20px;
+}
+.con4_title{
+    background-color: #dee4cfc4;
+}
+.con4 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.con4 ul li span{
+    display: block;
+    width: 285px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.con4 ul li span:nth-of-type(3){
+    font-size: 14px;
+    color: #989898; 
+}
+.con4 ul li span:nth-of-type(1){
+    font-size: 20px;
+}
+.con4 ul li:hover{
+    cursor: pointer;
+    background-color: #a20a09;
+}
+.con4 ul li:hover span{
+    color: white;
+}
